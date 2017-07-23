@@ -6,7 +6,7 @@ can be solved by applying some denoising and using Tesseract (version 3.05.01) t
 Just for fun I added a proxy fetcher (https://github.com/stamparm/fetch-some-proxies) to circumvent the 5 requests per IP per Day limit,
 to get around 600 requests per day.
 
-## install dependencies:
+### install dependencies:
 	
 	pip install pytesseract
 	pip install BeautifulSoup
@@ -26,5 +26,6 @@ to get around 600 requests per day.
 	https://chromedriver.storage.googleapis.com/index.html?path=2.30/
 	to C:\Python27\webdrivers\chromedriver.exe
 	or place it somewhere else and change the webdriverPath accordingly
-	
-run captcha_solver.py and let the magic happen ;-)
+-------------
+### run:
+	just run captcha_solver.py with python2.7 and let the magic happen ;-)
