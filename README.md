@@ -6,7 +6,8 @@ can be solved by applying some denoising and using Tesseract (version 3.05.01) t
 Just for fun I added a proxy fetcher (https://github.com/stamparm/fetch-some-proxies) to circumvent the 5 requests per IP per Day limit,
 to get around 600 requests per day.
 
-install dependencies:
+## install dependencies:
+	
 	pip install pytesseract
 	pip install BeautifulSoup
 	pip install regex
